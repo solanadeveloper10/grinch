@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
     welcomeScreen.style.display = 'none'; // Приховати екран привітання
     if (!isPlaying) {
       audio.play(); // Відтворити музику
-      musicIcon.src = 'images/zvuk_2.png'; // Змінити іконку на "звук увімкнено"
+      musicIcon.src = 'images/zvuk.png'; // Змінити іконку на "звук увімкнено"
       isPlaying = true;
     }
   });
@@ -28,10 +28,10 @@ document.addEventListener('DOMContentLoaded', function () {
   musicButton.addEventListener('click', function () {
     if (isPlaying) {
       audio.pause();
-      musicIcon.src = 'images/zvuk.png'; // Змінити іконку на "звук вимкнено"
+      musicIcon.src = 'images/zvuk_2.png'; // Змінити іконку на "звук вимкнено"
     } else {
       audio.play();
-      musicIcon.src = 'images/zvuk_2.png'; // Змінити іконку на "звук увімкнено"
+      musicIcon.src = 'images/zvuk.png'; // Змінити іконку на "звук увімкнено"
     }
     isPlaying = !isPlaying;
   });
