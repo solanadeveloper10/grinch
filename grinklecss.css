@@ -502,6 +502,58 @@
   border-bottom-width: 2px;
 }
 
+.dexscreener {
+  background-color: #004a15;
+  background-image: url('../images/dexs.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: 2px solid #000;
+  border-bottom-width: 4px;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  padding: 0;
+  font-family: Maladroit, sans-serif;
+  font-size: 20px;
+  display: flex;
+}
+
+.dexscreener:hover {
+  background-color: #288442;
+  border-top-width: 4px;
+  border-bottom-width: 2px;
+}
+
+.dextools {
+  background-color: #004a15;
+  background-image: url('../images/dex.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: 2px solid #000;
+  border-bottom-width: 4px;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  padding: 0;
+  font-family: Maladroit, sans-serif;
+  font-size: 20px;
+  display: flex;
+}
+
+.dextools:hover {
+  background-color: #288442;
+  border-top-width: 4px;
+  border-bottom-width: 2px;
+}
+
 .menu_link {
   color: #09ca60;
   background-color: rgba(0, 0, 0, 0);

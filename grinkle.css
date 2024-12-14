@@ -1855,3 +1855,59 @@ textarea.w-select {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+
+.music-control {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  background-color: transparent; /* Без фону */
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.music-control img {
+  width: 50px; /* Розмір іконки */
+  height: 50px;
+  transition: transform 0.3s ease;
+}
+
+.music-control img:hover {
+  transform: scale(1.1); /* Легке збільшення при наведенні */
+}
+
+.section_welcome {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Напівпрозорий фон */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000; /* Високий рівень, щоб перекрити всі елементи */
+}
+
+.section_welcome .h3 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.section_welcome .continue {
+  padding: 10px 20px;
+  background-color: #ff5722;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.section_welcome .continue:hover {
+  background-color: #e64a19;
+}
