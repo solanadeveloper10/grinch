@@ -764,3 +764,21 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+@font-face {
+  font-family: 'Ruthless Sketch';
+  src: url('fonts/RuthlessSketch.ttf') format('woff2'),
+       url('fonts/RuthlessSketchItalic.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.section_welcome .h3, 
+.section_welcome .continue {
+  font-family: 'Ruthless Sketch', sans-serif;
+  color: #75ff56;
+  
+}
+.section_welcome .continue {
+background-color: green;
+}
