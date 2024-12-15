@@ -3,8 +3,9 @@
   --black: black;
 }
 
-.body {
+body {
   background-color: #00280e;
+  font-family: 'Ruthless Sketch', sans-serif;
 }
 
 .hero_wave_top {
@@ -120,6 +121,7 @@
   font-family: Super Ocean Personal Use, sans-serif;
   font-size: 100px;
   line-height: 100px;
+    font-family: 'Ruthless Sketch', sans-serif;
 }
 
 .block_para {
@@ -134,6 +136,7 @@
   font-family: Maladroit, sans-serif;
   font-size: 20px;
   line-height: 30px;
+  font-family: 'Ruthless Sketch', sans-serif;
 }
 
 .block_skate {
@@ -227,8 +230,9 @@
 
 .h2 {
   color: #60d682;
-  font-family: Maladroit, sans-serif;
+
   font-size: 20px;
+      font-family: 'Ruthless Sketch', sans-serif;
 }
 
 .wave_tokenomics {
@@ -291,7 +295,7 @@
   text-align: center;
   margin-top: 25px;
   margin-bottom: 25px;
-  font-family: Maladroit, sans-serif;
+      font-family: 'Ruthless Sketch', sans-serif;
 }
 
 .button_buy {
@@ -306,6 +310,7 @@
   font-family: Maladroit, sans-serif;
   font-size: 20px;
   display: flex;
+      font-family: 'Ruthless Sketch', sans-serif;
 }
 
 .button_buy:hover {
@@ -402,6 +407,7 @@
   font-family: Maladroit, sans-serif;
   font-size: 20px;
   display: flex;
+      font-family: 'Ruthless Sketch', sans-serif;
 }
 
 .button_socials:hover {
@@ -417,7 +423,7 @@
 .text-block {
   color: #9ddd8e;
   margin-top: 50px;
-  font-family: Maladroit, sans-serif;
+      font-family: 'Ruthless Sketch', sans-serif;
   font-size: 25px;
   line-height: 25px;
 }
@@ -448,6 +454,7 @@
   justify-content: flex-end;
   align-items: center;
   display: flex;
+      font-family: 'Ruthless Sketch', sans-serif;
 }
 
 .tg {
@@ -504,7 +511,7 @@
 
 .dexscreener {
   background-color: #004a15;
-  background-image: url('../images/dexs.png');
+  /* background-image: url('../images/dexs.png'); */
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -530,7 +537,7 @@
 
 .dextools {
   background-color: #004a15;
-  background-image: url('../images/dex.png');
+  /* background-image: url('../images/dex32.png'); */
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -562,6 +569,7 @@
   font-family: Super Ocean Personal Use, sans-serif;
   font-size: 18px;
   line-height: 18px;
+      font-family: 'Ruthless Sketch', sans-serif;
 }
 
 .menu_link:hover {
@@ -591,6 +599,7 @@
   font-family: Super Ocean Personal Use, sans-serif;
   font-size: 70px;
   line-height: 70px;
+      font-family: 'Ruthless Sketch', sans-serif;
 }
 
 .continue {
@@ -674,11 +683,13 @@
   .h1 {
     font-size: 50px;
     line-height: 50px;
+        font-family: 'Ruthless Sketch', sans-serif;
   }
 
   .para {
     font-size: 16px;
     line-height: 25px;
+        font-family: 'Ruthless Sketch', sans-serif;
   }
 
   .block_skate {
@@ -715,6 +726,7 @@
   .h3 {
     font-size: 50px;
     line-height: 50px;
+        font-family: 'Ruthless Sketch', sans-serif;
   }
 }
 
@@ -772,6 +784,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 
 .section_welcome .h3, 
 .section_welcome .continue {
