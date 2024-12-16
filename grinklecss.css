@@ -9,7 +9,7 @@ body {
 }
 
 .hero_wave_top {
-  background-image: url('../images/hero_wave_top.svg');
+  background-image: url('../images/hero_wave_top.gif');
   background-position: 50% 100%;
   background-repeat: repeat-x;
   background-size: auto 100%;
@@ -22,7 +22,7 @@ body {
 }
 
 .hero_wave_bottom {
-  background-image: url('../images/kaplya.gif');
+  background-image: url('../images/hero_wave_bottom.gif');
   background-position: 50% 100%;
   background-repeat: repeat-x;
   background-size: auto 100%;
@@ -82,13 +82,13 @@ body {
 }
 
 .hero_transition {
-  background-color: #13a03b;
+  background: linear-gradient(to bottom, #13a03b, #21a54a);
   height: 60px;
 }
 
 .splash_transition_hero {
   background-color: rgba(0, 0, 0, 0);
-  background-image: url('../images/hero_wave_transition.svg');
+  background-image: url('../images/hero_wave_transition.gif');
   background-position: 0 0;
   background-size: auto 100%;
   height: 120px;
@@ -141,8 +141,6 @@ body {
 
 .block_skate {
   z-index: 2;
-  background-color: #004b1a;
-  justify-content: center;
   align-items: flex-end;
   width: 100%;
   height: 200px;
@@ -153,6 +151,7 @@ body {
   bottom: 0%;
   left: 0%;
   right: 0%;
+    background: linear-gradient(to bottom, #001e09, #004b1a);
 }
 
 .chara_skate {
@@ -176,8 +175,9 @@ body {
 }
 
 .separator_about {
-  background-color: #003011;
-  width: 100%;
+      background: linear-gradient(to bottom, #004b1a, #001005);
+        /* Градієнт зверху вниз */
+ width: 100%;
   height: 50px;
 }
 
@@ -321,14 +321,15 @@ body {
 
 .transition_join {
   z-index: 20;
-  background-color: #07aa2a;
+      background: linear-gradient(to bottom, #07aa2a, #21a547);
+        /* Градієнт зверху вниз */
   height: 40px;
   position: relative;
 }
 
 .join_wave {
   z-index: 2;
-  background-image: url('../images/wave_join_top.svg');
+  background-image: url('../images/wave_join_top.gif');
   background-position: 50% 100%;
   background-repeat: repeat-x;
   background-size: auto 100%;
@@ -340,7 +341,7 @@ body {
 
 .join_wave_bg {
   z-index: 0;
-  background-image: url('../images/wave_join_bg.svg');
+  background-image: url('../images/wave_join_bg.gif');
   background-position: 0 100%;
   background-repeat: repeat-x;
   background-size: auto 100%;
@@ -390,6 +391,7 @@ body {
   bottom: 0%;
   left: 0%;
   right: 0%;
+  filter: blur(5px);
 }
 
 .button_socials {
@@ -794,4 +796,52 @@ body {
 }
 .section_welcome .continue {
 background-color: green;
+}
+
+
+.section_join {
+  position: relative;
+}
+
+.div-block {
+  width: 100%;
+  height: 100px;
+  background-color: #4caf50;
+}
+
+.join_wave {
+  width: 100%;
+  height: 100px;
+}
+
+.image-between {
+  position: absolute;
+  top: 90px;
+  /* Відступ, щоб з'явилась між елементами */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+
+.image-between img {
+  width: 50px;
+  /* Розмір картинки */
+  height: auto;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  /* Розтягнути на всю ширину */
+  overflow: hidden;
+  /* Прибрати зайвий контент */
+}
+
+.video-container video {
+  width: 100%;
+  /* Розтягнути відео по ширині контейнера */
+  height: auto;
+  /* Автоматична висота для збереження пропорцій */
+  object-fit: cover;
+  /* Відео покриває весь контейнер */
 }
