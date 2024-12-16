@@ -906,7 +906,7 @@ textarea.w-select {
 .w-background-video {
   position: relative;
   overflow: hidden;
-  height: 500px;
+  height: 300px;
   color: white;
 }
 .w-background-video > video {
