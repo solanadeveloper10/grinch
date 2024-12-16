@@ -151,13 +151,13 @@ body {
   bottom: 0%;
   left: 0%;
   right: 0%;
-  margin-left: 600px;
     background: linear-gradient(to bottom, #001e09, #004b1a);
 }
 
 .chara_skate {
   height: 300%;
   margin-bottom: 50px;
+  margin-left: 500px;
 }
 
 .wave_about {
